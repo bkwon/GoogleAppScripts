@@ -1,7 +1,7 @@
 //PreReq:  SORT the product rows by UPC code and paste the Images list in Column AY sorted by UPC the same way. 
 //TODO: Implement auto sort rows by UPC
 
-function insertRowsWithTextMoveDataAndAltText() {
+function addImagesAltTxt() {
   var sheet = SpreadsheetApp.getActiveSheet();
   var lastRow = sheet.getLastRow();
   
